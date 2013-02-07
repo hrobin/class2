@@ -1,2 +1,21 @@
 @import "compass_twitter_bootstrap";
 @import "compass_twitter_bootstrap_responsive";
+
+.row-fluid .thumbnails {
+	li {
+		margin-right: 30px;
+		margin-left: 0px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	
+	.row-fluid {
+		.thumbnails {
+			.thumbnail {
+				width: 100px;
+			}
+		}
+	}
+	
+}
